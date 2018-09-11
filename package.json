@@ -1,0 +1,20 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "Twitter bot to follow/unfollow users and retweet/like tweets",
+  "main": "twitter-bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.omniti.com:lfayer/twitter-bot.git"
+  },
+  "author": "Leon Fayer",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^4.0.7",
+    "twit": "^2.2.9",
+    "uniqid": "^4.1.1"
+  }
+}
